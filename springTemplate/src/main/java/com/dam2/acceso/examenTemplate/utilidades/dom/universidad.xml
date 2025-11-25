@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<universidad nombre="Universidad Nacional de Ejemplo">
+    <facultades>
+        <facultad nombre="Facultad de Ingeniería">
+            <carreras>
+                <carrera codigo="INF001">
+                    <nombre>Ingeniería Informática</nombre>
+                    <departamento>Computación</departamento>
+                    <estudiantes>
+                        <estudiante id="2">
+                            <nombre>Juan Pérez</nombre>
+                            <edad>22</edad>
+                            <email>juan.perez@ejemplo.edu</email>
+                            <materias>
+                                <materia codigo="INF101">
+                                    <nombre>Programación I</nombre>
+                                    <nota>7.8</nota>
+                                </materia>
+                                <materia codigo="INF303">
+                                    <nombre>Sistemas Operativos</nombre>
+                                    <nota>8.2</nota>
+                                </materia>
+                                <materia codigo="miCodigo">
+                                    <nombre>Mecánica de fluidos</nombre>
+                                    <nota>4.99</nota>
+                                </materia>
+                            </materias>
+                        </estudiante>
+                    </estudiantes>
+                </carrera>
+                <carrera codigo="CIV002">
+                    <nombre>Ingeniería Civil</nombre>
+                    <departamento>Estructuras</departamento>
+                    <estudiantes>
+                        <estudiante id="3">
+                            <nombre>Lucía Gómez</nombre>
+                            <edad>23</edad>
+                            <email>lucia.gomez@ejemplo.edu</email>
+                            <materias>
+                                <materia codigo="CIV101">
+                                    <nombre>Mecánica de Suelos</nombre>
+                                    <nota>8.9</nota>
+                                </materia>
+                            </materias>
+                        </estudiante>
+                    </estudiantes>
+                </carrera>
+            </carreras>
+        </facultad>
+        <facultad nombre="Facultad de Ciencias Sociales">
+            <carreras>
+                <carrera codigo="ADM003">
+                    <nombre>Administración de Empresas</nombre>
+                    <departamento>Gestión y Economía</departamento>
+                    <estudiantes>
+                        <estudiante id="4">
+                            <nombre>Marcos Díaz</nombre>
+                            <edad>24</edad>
+                            <email>marcos.diaz@ejemplo.edu</email>
+                            <materias>
+                                <materia codigo="ADM201">
+                                    <nombre>Contabilidad I</nombre>
+                                    <nota>7.5</nota>
+                                </materia>
+                            </materias>
+                        </estudiante>
+                    </estudiantes>
+                </carrera>
+            </carreras>
+        </facultad>
+    </facultades>
+</universidad>
