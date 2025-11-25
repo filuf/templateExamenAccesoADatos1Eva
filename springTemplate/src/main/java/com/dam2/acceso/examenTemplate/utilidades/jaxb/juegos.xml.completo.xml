@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BibliotecaVideojuegos>
+    <usuarios>
+        <usuario ID_Usuario="1">
+            <nombre>Juan</nombre>
+        </usuario>
+        <usuario ID_Usuario="2">
+            <nombre>Ana</nombre>
+        </usuario>
+        <usuario ID_Usuario="3">
+            <nombre>Arberto</nombre>
+        </usuario>
+    </usuarios>
+    <juegos>
+        <juego>
+            <ID_Juego>101</ID_Juego>
+            <titulo>Super Mario Bros</titulo>
+            <consola>Nintendo</consola>
+            <estado>Usado</estado>
+        </juego>
+        <juego>
+            <ID_Juego>102</ID_Juego>
+            <titulo>Sonic the Hedgehog</titulo>
+            <consola>Sega Genesis</consola>
+            <estado>Nuevo</estado>
+        </juego>
+        <juego>
+            <ID_Juego>103</ID_Juego>
+            <titulo>God of War:Ragnarok</titulo>
+            <consola>Ps5</consola>
+            <estado>Seminuevo</estado>
+        </juego>
+    </juegos>
+    <intercambios>
+        <intercambio>
+            <ID_Intercambio>5001</ID_Intercambio>
+            <ID_Usuario_Emisor>1</ID_Usuario_Emisor>
+            <ID_Usuario_Receptor>3</ID_Usuario_Receptor>
+            <ID_Juego>101</ID_Juego>
+        </intercambio>
+        <intercambio>
+            <ID_Intercambio>6001</ID_Intercambio>
+            <ID_Usuario_Emisor>3</ID_Usuario_Emisor>
+            <ID_Usuario_Receptor>2</ID_Usuario_Receptor>
+            <ID_Juego>102</ID_Juego>
+        </intercambio>
+        <intercambio>
+            <ID_Intercambio>7001</ID_Intercambio>
+            <ID_Usuario_Emisor>2</ID_Usuario_Emisor>
+            <ID_Usuario_Receptor>1</ID_Usuario_Receptor>
+            <ID_Juego>103</ID_Juego>
+        </intercambio>
+    </intercambios>
+</BibliotecaVideojuegos>
