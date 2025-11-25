@@ -31,3 +31,21 @@ Estas utilidades permiten trabajar con XML de manera **segura y consistente**, e
 - Inserciones que generan un archivo en una sola línea (*one-liner*).
 - Saltos de línea o espacios excesivos entre etiquetas.
 - Necesidad de recorrer manualmente el DOM para limpiar nodos de texto vacíos.
+
+## Utilidades para trabajar con archivos .properties
+
+En la ruta `com.dam2.acceso.examenTemplate.utilidades.properties.utils` se incluyen varias utilidades para manejar archivos **.properties** en Java:
+
+- **PropertiesUtils.java**: clase de utilidades para cargar, leer y modificar archivos de configuración `.properties`.  
+  Entre sus métodos destacan:
+  - `getPropertiesFile(String path)`: carga un archivo `.properties` desde la ruta indicada y devuelve un objeto `Properties`.
+  - `getPropertieValue(Properties propsFile, String key)`: obtiene el valor de una clave específica desde un objeto `Properties`.
+  - `setPropertieValue(Properties propsFile, String key, String value, String path)`: establece o actualiza el valor de una propiedad y guarda los cambios en el archivo.
+
+- **Main.java**: clase de prueba que demuestra cómo usar las utilidades `PropertiesUtils`:
+  - Carga un archivo de propiedades de ejemplo.
+  - Muestra cómo obtener valores de configuración.
+  - Modifica propiedades y guarda los cambios en el archivo.
+  - Permite verificar que los cambios se reflejan tanto en el objeto `Properties` como en el archivo físico.
+
+- **example.properties**: archivo de ejemplo.
