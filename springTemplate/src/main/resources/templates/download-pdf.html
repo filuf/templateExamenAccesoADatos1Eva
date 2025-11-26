@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Paginita de descarga</title>
+</head>
+<body>
+
+<h1> EL ARCHIVO SE HA CONVERTIDO CORRECTAMENTE A PDF </h1>
+
+<form action="download" method="post">
+    <!-- Campo oculto con el nombre del fichero, el TH:VALUE indica que el nombre del archivo viene de la variable de java -->
+    <input type="hidden" name="fileName" th:value="${fileName}" />
+
+    <!-- Botón para descargar -->
+    <button type="submit">Descargar PDF</button>
+</form>
+
+</body>
+</html>

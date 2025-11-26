@@ -1,0 +1,35 @@
+{
+  "alumno" : [ {
+    "id" : "1",
+    "nombre" : "Pepe",
+    "direccion" : "Ninguna",
+    "notas" : {
+      "nota" : [ {
+        "mat" : "fol",
+        "" : "4"
+      }, {
+        "mat" : "acceso",
+        "" : "9"
+      }, {
+        "mat" : "economia",
+        "" : "2"
+      } ]
+    }
+  }, {
+    "id" : "2",
+    "nombre" : "Juan",
+    "direccion" : "Todas",
+    "notas" : {
+      "nota" : [ {
+        "mat" : "fol",
+        "" : "9"
+      }, {
+        "mat" : "acceso",
+        "" : "4"
+      }, {
+        "mat" : "economia",
+        "" : "7"
+      } ]
+    }
+  } ]
+}

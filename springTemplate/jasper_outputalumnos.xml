@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno id="1">
+        <nombre>Pepe</nombre>
+        <direccion>Ninguna</direccion>
+        <notas>
+            <nota mat="fol">4</nota>
+            <nota mat="acceso">9</nota>
+            <nota mat="economia">2</nota>
+        </notas>
+    </alumno>
+    <alumno id="2">
+        <nombre>Juan</nombre>
+        <direccion>Todas</direccion>
+        <notas>
+            <nota mat="fol">9</nota>
+            <nota mat="acceso">4</nota>
+            <nota mat="economia">7</nota>
+        </notas>
+    </alumno>
+</alumnos>
